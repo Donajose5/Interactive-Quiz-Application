@@ -1,5 +1,5 @@
 # Interactive-Quiz-Application
-A VIT entrance quiz application
+VIT entrance test application
 
 ## Languages
 - HTML5
