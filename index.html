@@ -1,0 +1,95 @@
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>VIT Entrance Quiz</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+<body>
+    <nav class="navbar navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="https://vit.ac.in/WeTA2020/vitlogo.jpg" width="70" height="70" class="d-inline-block align-top"
+                alt="VIT">
+            <div class="text">Vellore Institute of Technology</div>
+        </a>
+    </nav>
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Instructions</span></div>
+        <div class="info-list">
+            <ul>
+                <div class="info"><li><b>First round</b> will based upon General Science in which 10 questions will displayed. The duration of 
+                    this round will be 15 minutes.</li></div>
+                <div class="info"><li><b>Second round</b> will base upon General Knowledge in which 5 questions will displayed. The duration 
+                    of this round will be 15 minutes.</li></div>
+                <div class="info"><li><b>Third round</b> will be of Logo Identification in which 5 logos will be displayed. The duration of this 
+                    round will be 8 minutes.</li></div>
+                <div class="info"><li>Once a question is attempted, you cannot go back to the same question.</li></div>
+            </ul>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <div class="round_box">
+        <header>
+            <div class="title"></div>
+        </header>
+        <div class="round_desc">
+            
+        </div>
+        <div class="buttons">
+            <button class="proceed">Proceed</button>
+        </div>
+        
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title"></div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left: </div>
+                <div class="timer_sec"></div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text"></div>
+            <div class="option_list"></div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Save and Next</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="complete_text">You've completed the Quiz!</div><br>
+        <div class="score_text"></div>
+        <div class="result"></div>
+        <form action="login.html">
+        <div class="buttons">
+            <button class="quit">Exit</button>
+        </div>
+    </form>
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
